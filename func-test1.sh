@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function func1{
+func1(){
 	echo "This is a function"
 }
 

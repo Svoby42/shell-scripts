@@ -2,7 +2,7 @@
 
 double(){
 	local original=($(echo "$@"))
-	local new = ($(echo "$@"))
+	local new=($(echo "$@"))
 	for (( i=0; i<$#; i++  ))
 	{
 		new[$i]=$[ ${original[$i]} * 2  ]	

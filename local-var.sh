@@ -5,5 +5,6 @@ func1(){
 	result=$[ $temp * 2 ]
 }
 value=6
+func1
 echo "The result is $result"
-
+echo "$temp"
